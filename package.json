@@ -1,0 +1,24 @@
+{
+  "name": "studyTimer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youkan2002/studyTimer_bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youkan2002/studyTimer_bot/issues"
+  },
+  "homepage": "https://github.com/youkan2002/studyTimer_bot#readme",
+  "dependencies": {
+    "@line/bot-sdk": "^6.8.4"
+ 
+  }
+}
