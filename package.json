@@ -1,5 +1,5 @@
 {
-  "name": "studyTimer",
+  "name": "Linebot-lamda-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/youkan2002/studyTimer_bot.git"
+    "url": "git+https://github.com/youkan2002/Linebot-lamda-template.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/youkan2002/studyTimer_bot/issues"
+    "url": "https://github.com/youkan2002/Linebot-lamda-template/issues"
   },
-  "homepage": "https://github.com/youkan2002/studyTimer_bot#readme",
+  "homepage": "https://github.com/youkan2002/Linebot-lamda-template#readme",
   "dependencies": {
-    "@line/bot-sdk": "^6.8.4"
- 
+    "@line/bot-sdk": "^6.8.4",
+    "request": "^2.88.2"
   }
 }
