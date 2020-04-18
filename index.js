@@ -56,8 +56,7 @@ const messageFunc = async function (e) {
       case "postback":
         mes = await postbackFunc(e)
         break;  
-    default:
-      mes = { type: "text", text: "読み込めませんでした" };
+   
   }
   return mes;
 };
