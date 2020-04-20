@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/youkan2002/Linebot-lamda-template#readme",
   "dependencies": {
-    "@line/bot-sdk": "^6.8.4",
-    "request": "^2.88.2"
+    "@line/bot-sdk": "^6.8.4"
+ 
   }
 }

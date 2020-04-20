@@ -1,7 +1,6 @@
 "use strict";
 const line = require("@line/bot-sdk")
 const client = new line.Client({ channelAccessToken: process.env.ACCESSTOKEN });
-
 exports.handler = (event, context,callback) => {
 
   let body = JSON.parse(event.body);
