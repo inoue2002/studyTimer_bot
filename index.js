@@ -165,9 +165,9 @@ async function textFunc(e) {
             {
               "type": "button",
               "action": {
-                "type": "uri",
-                "label": "SNSで共有する！",
-                "uri": "https://linecorp.com"
+                "type": "message",
+                "label": "SNS共有する！",
+                "text": "SNS共有"
               },
               "style": "primary"
             }
@@ -175,6 +175,20 @@ async function textFunc(e) {
         }
       }
     }
+  }
+  if(userMes === "SNS共有"){
+    returnMes = [{
+      "type": "text",
+      "text": "以下のメッセージをコピーして他のSNSで共有してね！\n"
+    },{
+      "type": "text",
+      "text": "友達登録をするだけで、勉強時間を自分や友達同士で可視化できるサービス「studyTimer」は、トークやグループに招待し、「勉強開始」と呼びかけるだけでタイマーが開始します。休憩機能でタイマーを一時的に止めることも可能！！一度と友達追加して」使ってみてください！！\n追加はこちらから→（https://lin.ee/rEEeqq1）\n\n"
+    },{
+      "type": "image",
+      "originalContentUrl": "https://qr-official.line.me/sid/L/353wnnzg.png",
+      "previewImageUrl": "https://qr-official.line.me/sid/L/353wnnzg.png",
+      "animated": false
+    }]
   }
   return returnMes;
 }
@@ -344,50 +358,6 @@ var sec = min_wari
 
 
 
- /* 
-
-var start_ms = Number(e.postback.data)
-
-console.log(`始まりの時間：${start_ms}`)
-var elapsed_ms = new Date().getTime() 
-elapsed_ms =Math.floor( elapsed_ms / 1000 ) ;
-elapsed_ms = elapsed_ms - start_ms;  //秒数
-console.log(`経過時間：${elapsed_ms}`)
-
-
-
-  returnMes = {
-    "type": "flex",
-    "altText": "勉強終了！",
-    "contents": {
-      "type": "bubble",
-      "direction": "ltr",
-      "header": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": `${pro.displayName}が${hour}時間${min}分${sec}秒勉強しました。`,
-            "align": "center",
-            "wrap": true
-          }
-        ]
-      },
-      "footer": {
-        "type": "box",
-        "layout": "horizontal",
-        "contents": [
-          {
-            "type": "text",
-            "text": "また勉強を始める時は「勉強開始」って呼びかけてね。",
-            "wrap": true
-          }
-        ]
-      }
-    }
-  }*/
-  //特定のキーワードに応答
   
 
    
